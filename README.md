@@ -46,11 +46,10 @@ After convergence, the value function is printed:
 
 ```
 Value function:
-tensor([[-3., -2., -1.,  0.,  0.],
-        [-3., -2., -1.,  0.,  0.],
-        [-3., -2., -1.,  0.,  0.],
-        [-3., -2., -1.,  0.,  0.],
-        [-3., -2., -1.,  0.,  0.]])
+tensor([[-2., -1.,  0.,  0.],
+        [-2., -1.,  0.,  0.],
+        [-2., -1.,  0.,  0.],
+        [-2., -1.,  0.,  0.]])
 ```
 
 This shows the optimal value for each state in the grid, with the terminal state (4,4) remaining at 0.

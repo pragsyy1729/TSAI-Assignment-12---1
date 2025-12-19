@@ -1,7 +1,7 @@
 import torch
 
 
-N = 5
+N = 4
 grid = torch.zeros((N, N), dtype=torch.float32)
 zeros_part = torch.full((N-1,), -1)
 one_part = torch.tensor([0])
